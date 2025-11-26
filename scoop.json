@@ -1,0 +1,118 @@
+{
+  "buckets": [
+    {
+      "Name": "main",
+      "Source": "https://github.com/ScoopInstaller/Main"
+    },
+    {
+      "Name": "extras",
+      "Source": "https://github.com/ScoopInstaller/Extras"
+    },
+    {
+      "Name": "java",
+      "Source": "https://github.com/ScoopInstaller/Java"
+    }
+  ],
+  "apps": [
+    {
+      "Source": "main",
+      "Name": "7zip"
+    },
+    {
+      "Source": "extras",
+      "Name": "bitwarden"
+    },
+    {
+      "Source": "main",
+      "Name": "cloc"
+    },
+    {
+      "Source": "main",
+      "Name": "git"
+    },
+    {
+      "Source": "main",
+      "Name": "gradle"
+    },
+    {
+      "Source": "Extras",
+      "Name": "gui-for-clash"
+    },
+    {
+      "Source": "extras",
+      "Name": "hibit-uninstaller"
+    },
+    {
+      "Source": "extras",
+      "Name": "idea-ultimate"
+    },
+    {
+      "Source": "extras",
+      "Name": "localsend"
+    },
+    {
+      "Source": "main",
+      "Name": "maven"
+    },
+    {
+      "Source": "extras",
+      "Name": "mpv"
+    },
+    {
+      "Source": "Main",
+      "Name": "nodejs-lts"
+    },
+    {
+      "Source": "extras",
+      "Name": "obs-studio"
+    },
+    {
+      "Source": "extras",
+      "Name": "office-tool-plus"
+    },
+    {
+      "Source": "main",
+      "Name": "oh-my-posh"
+    },
+    {
+      "Source": "Main",
+      "Name": "pnpm"
+    },
+    {
+      "Source": "main",
+      "Name": "rclone"
+    },
+    {
+      "Source": "extras",
+      "Name": "rufus"
+    },
+    {
+      "Source": "extras",
+      "Name": "snipaste"
+    },
+    {
+      "Source": "java",
+      "Name": "temurin-lts-jdk"
+    },
+    {
+      "Source": "java",
+      "Name": "temurin8-jdk"
+    },
+    {
+      "Source": "extras",
+      "Name": "thunderbird"
+    },
+    {
+      "Source": "main",
+      "Name": "uv"
+    },
+    {
+      "Source": "extras",
+      "Name": "vscode"
+    },
+    {
+      "Source": "extras",
+      "Name": "winscp"
+    }
+  ]
+}
