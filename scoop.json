@@ -19,10 +19,6 @@
       "Name": "7zip"
     },
     {
-      "Source": "extras",
-      "Name": "bitwarden"
-    },
-    {
       "Source": "main",
       "Name": "cloc"
     },
@@ -59,24 +55,16 @@
       "Name": "mpv"
     },
     {
-      "Source": "Main",
-      "Name": "nodejs-lts"
-    },
-    {
       "Source": "extras",
       "Name": "obs-studio"
-    },
-    {
-      "Source": "extras",
-      "Name": "office-tool-plus"
     },
     {
       "Source": "main",
       "Name": "oh-my-posh"
     },
     {
-      "Source": "Main",
-      "Name": "pnpm"
+      "Source": "extras",
+      "Name": "opencode"
     },
     {
       "Source": "main",
@@ -92,15 +80,15 @@
     },
     {
       "Source": "java",
-      "Name": "temurin-lts-jdk"
+      "Name": "temurin25-jdk"
+    },
+    {
+      "Source": "java",
+      "Name": "temurin21-jdk"
     },
     {
       "Source": "java",
       "Name": "temurin8-jdk"
-    },
-    {
-      "Source": "extras",
-      "Name": "thunderbird"
     },
     {
       "Source": "main",
@@ -109,10 +97,6 @@
     {
       "Source": "extras",
       "Name": "vscode"
-    },
-    {
-      "Source": "extras",
-      "Name": "winscp"
     }
   ]
 }
