@@ -1,6 +1,52 @@
 # scoop-setup
 
-## 正则匹配
+## 文档
+
+[Scoop](https://scoop.sh/)
+
+## 快速开始
+
+修改脚本执行策略
+
+```shell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+执行安装脚本
+
+```shell
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+```
+
+设置代理
+
+```shell
+scoop config proxy 127.0.0.1:7890
+```
+
+## 命令
+
+更新软件包
+
+```shell
+scoop update | scoop update * | scoop cache rm * | scoop cleanup *
+```
+
+导出
+
+```shell
+scoop export > scoop.json
+```
+
+导入
+
+```shell
+scoop import .\scoop.json
+```
+
+## 其他
+
+正则表达式
 
 ```text
 "(Updated|Version|Info)":.*\n
