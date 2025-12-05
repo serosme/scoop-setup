@@ -24,6 +24,10 @@
     },
     {
       "Source": "main",
+      "Name": "dark"
+    },
+    {
+      "Source": "main",
       "Name": "git"
     },
     {
@@ -41,6 +45,10 @@
     {
       "Source": "extras",
       "Name": "idea-ultimate"
+    },
+    {
+      "Source": "main",
+      "Name": "innounp"
     },
     {
       "Source": "extras",
@@ -80,11 +88,7 @@
     },
     {
       "Source": "java",
-      "Name": "temurin25-jdk"
-    },
-    {
-      "Source": "java",
-      "Name": "temurin21-jdk"
+      "Name": "temurin-lts-jdk"
     },
     {
       "Source": "java",
@@ -97,6 +101,10 @@
     {
       "Source": "extras",
       "Name": "vscode"
+    },
+    {
+      "Source": "main",
+      "Name": "wixtoolset"
     }
   ]
 }
