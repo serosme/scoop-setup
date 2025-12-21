@@ -24,10 +24,6 @@
     },
     {
       "Source": "main",
-      "Name": "dark"
-    },
-    {
-      "Source": "main",
       "Name": "git"
     },
     {
@@ -35,7 +31,7 @@
       "Name": "gradle"
     },
     {
-      "Source": "Extras",
+      "Source": "extras",
       "Name": "gui-for-clash"
     },
     {
@@ -45,10 +41,6 @@
     {
       "Source": "extras",
       "Name": "idea-ultimate"
-    },
-    {
-      "Source": "main",
-      "Name": "innounp"
     },
     {
       "Source": "extras",
@@ -97,10 +89,6 @@
     {
       "Source": "extras",
       "Name": "vscode"
-    },
-    {
-      "Source": "main",
-      "Name": "wixtoolset"
     }
   ]
 }
