@@ -6,7 +6,11 @@
     },
     {
       "Name": "extras",
-      "Source": "https://github.com/ScoopInstaller/Extras"
+      "Source": "https://github.com/ScoopInstaller/extras"
+    },
+    {
+      "Name": "versions",
+      "Source": "https://github.com/ScoopInstaller/Versions"
     },
     {
       "Name": "java",
@@ -43,16 +47,20 @@
       "Name": "idea-ultimate"
     },
     {
+      "Source": "main",
+      "Name": "kubectl"
+    },
+    {
       "Source": "extras",
       "Name": "localsend"
     },
     {
-      "Source": "main",
-      "Name": "maven"
-    },
-    {
       "Source": "extras",
       "Name": "mpv"
+    },
+    {
+      "Source": "versions",
+      "Name": "nodejs24"
     },
     {
       "Source": "main",
@@ -73,14 +81,6 @@
     {
       "Source": "extras",
       "Name": "snipaste"
-    },
-    {
-      "Source": "java",
-      "Name": "temurin-lts-jdk"
-    },
-    {
-      "Source": "java",
-      "Name": "temurin8-jdk"
     },
     {
       "Source": "main",
