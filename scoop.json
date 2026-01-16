@@ -6,7 +6,7 @@
     },
     {
       "Name": "extras",
-      "Source": "https://github.com/ScoopInstaller/extras"
+      "Source": "https://github.com/ScoopInstaller/Extras"
     },
     {
       "Name": "versions",
@@ -29,10 +29,6 @@
     {
       "Source": "main",
       "Name": "git"
-    },
-    {
-      "Source": "main",
-      "Name": "gradle"
     },
     {
       "Source": "extras",
