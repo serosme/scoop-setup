@@ -67,6 +67,10 @@
       "Name": "opencode"
     },
     {
+      "Source": "extras",
+      "Name": "quicklook"
+    },
+    {
       "Source": "main",
       "Name": "rclone"
     },
