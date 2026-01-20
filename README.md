@@ -24,6 +24,12 @@ Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 scoop config proxy 127.0.0.1:7890
 ```
 
+从远程导入
+
+```shell
+irm https://script.seros.me/restore-scoop | iex
+```
+
 ## 命令
 
 更新软件包
