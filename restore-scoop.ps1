@@ -9,7 +9,7 @@ $Backups = @(
 )
 
 try {
-    Write-Host "Available scoop backups:`n"
+    Write-Host "Available Scoop backups:`n"
 
     for ($i = 0; $i -lt $Backups.Count; $i++) {
         Write-Host "[$($i + 1)] $($Backups[$i])"
@@ -26,10 +26,10 @@ try {
     $SelectedBackup = $Backups[$choice - 1]
     $BackupUrl = "$BaseUrl/$SelectedBackup"
 
-    Write-Host "`nDownloading scoop backup..."
+    Write-Host "`nDownloading Scoop backup..."
     Invoke-WebRequest $BackupUrl -OutFile $TempFile
 
-    Write-Host "Importing scoop backup..."
+    Write-Host "Importing Scoop backup..."
     scoop import $TempFile
 
     Write-Host "Cleaning up..."
