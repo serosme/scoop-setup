@@ -6,28 +6,24 @@
 
 ## 快速开始
 
-修改脚本执行策略
+安装
 
 ```shell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+irm get.scoop.sh | iex
 ```
 
-执行安装脚本
-
-```shell
-Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
-```
-
-设置代理
-
-```shell
-scoop config proxy 127.0.0.1:7890
-```
-
-从远程导入
+导入
 
 ```shell
 irm https://script.seros.me/restore-scoop | iex
+```
+
+## 配置
+
+代理
+
+```shell
+scoop config proxy 127.0.0.1:7890
 ```
 
 ## 命令
