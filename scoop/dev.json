@@ -1,0 +1,46 @@
+{
+  "buckets": [
+    {
+      "Name": "main",
+      "Source": "https://xget.seros.me/gh/ScoopInstaller/Main"
+    },
+    {
+      "Name": "extras",
+      "Source": "https://xget.seros.me/gh/ScoopInstaller/Extras"
+    },
+    {
+      "Name": "versions",
+      "Source": "https://xget.seros.me/gh/ScoopInstaller/Versions"
+    }
+  ],
+  "apps": [
+    {
+      "Source": "main",
+      "Name": "cloc"
+    },
+    {
+      "Source": "extras",
+      "Name": "idea-ultimate"
+    },
+    {
+      "Source": "main",
+      "Name": "kubectl"
+    },
+    {
+      "Source": "versions",
+      "Name": "nodejs24"
+    },
+    {
+      "Source": "main",
+      "Name": "opencode"
+    },
+    {
+      "Source": "main",
+      "Name": "uv"
+    },
+    {
+      "Source": "extras",
+      "Name": "vscode"
+    }
+  ]
+}

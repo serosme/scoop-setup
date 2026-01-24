@@ -7,24 +7,12 @@
     {
       "Name": "extras",
       "Source": "https://xget.seros.me/gh/ScoopInstaller/Extras"
-    },
-    {
-      "Name": "versions",
-      "Source": "https://xget.seros.me/gh/ScoopInstaller/Versions"
-    },
-    {
-      "Name": "java",
-      "Source": "https://xget.seros.me/gh/ScoopInstaller/Java"
     }
   ],
   "apps": [
     {
       "Source": "main",
       "Name": "7zip"
-    },
-    {
-      "Source": "main",
-      "Name": "cloc"
     },
     {
       "Source": "main",
@@ -40,14 +28,6 @@
     },
     {
       "Source": "extras",
-      "Name": "idea-ultimate"
-    },
-    {
-      "Source": "main",
-      "Name": "kubectl"
-    },
-    {
-      "Source": "extras",
       "Name": "localsend"
     },
     {
@@ -55,16 +35,8 @@
       "Name": "mpv"
     },
     {
-      "Source": "versions",
-      "Name": "nodejs24"
-    },
-    {
       "Source": "main",
       "Name": "oh-my-posh"
-    },
-    {
-      "Source": "main",
-      "Name": "opencode"
     },
     {
       "Source": "extras",
@@ -81,14 +53,6 @@
     {
       "Source": "extras",
       "Name": "snipaste"
-    },
-    {
-      "Source": "main",
-      "Name": "uv"
-    },
-    {
-      "Source": "extras",
-      "Name": "vscode"
     }
   ]
 }
