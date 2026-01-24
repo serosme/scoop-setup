@@ -2,19 +2,19 @@
   "buckets": [
     {
       "Name": "main",
-      "Source": "https://github.com/ScoopInstaller/Main"
+      "Source": "https://xget.seros.me/gh/ScoopInstaller/Main"
     },
     {
       "Name": "extras",
-      "Source": "https://github.com/ScoopInstaller/Extras"
+      "Source": "https://xget.seros.me/gh/ScoopInstaller/Extras"
     },
     {
       "Name": "versions",
-      "Source": "https://github.com/ScoopInstaller/Versions"
+      "Source": "https://xget.seros.me/gh/ScoopInstaller/Versions"
     },
     {
       "Name": "java",
-      "Source": "https://github.com/ScoopInstaller/Java"
+      "Source": "https://xget.seros.me/gh/ScoopInstaller/Java"
     }
   ],
   "apps": [
