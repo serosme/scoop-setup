@@ -1,6 +1,6 @@
 $ErrorActionPreference = "Stop"
 
-$BaseUrl = "https://raw.githubusercontent.com/serosme/scoop-setup/main/scoop"
+$BaseUrl = "https://raw.githubusercontent.com/serosme/scoop-setup/main"
 $TempFile = Join-Path $env:TEMP "scoop-backup.json"
 
 $Backups = @(
@@ -15,7 +15,7 @@ try {
         Write-Host "[$($i + 1)] $($Backups[$i])"
     }
 
-    $choice = Read-Host "`nSelect a backup to import (1-$($Backups.Count))"
+    $choice = Read-Host "`nSelect a backup to import"
 
     if (-not ($choice -as [int]) -or
         $choice -lt 1 -or
@@ -26,7 +26,7 @@ try {
     $SelectedBackup = $Backups[$choice - 1]
     $BackupUrl = "$BaseUrl/$SelectedBackup"
 
-    Write-Host "`nDownloading $SelectedBackup..."
+    Write-Host "`nDownloading scoop backup..."
     Invoke-WebRequest $BackupUrl -OutFile $TempFile
 
     Write-Host "Importing scoop backup..."
