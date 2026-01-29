@@ -31,8 +31,8 @@
       "Name": "nodejs24"
     },
     {
-      "Source": "main",
-      "Name": "opencode"
+      "Source": "extras",
+      "Name": "opencode-desktop"
     },
     {
       "Source": "main",
