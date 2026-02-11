@@ -16,6 +16,10 @@
     },
     {
       "Source": "main",
+      "Name": "gh"
+    },
+    {
+      "Source": "main",
       "Name": "git"
     },
     {
