@@ -1,46 +1,15 @@
-$ErrorActionPreference = "Stop"
+$tmp = Join-Path $env:TEMP 'scoop.txt'
 
-$BaseUrl = "https://raw.githubusercontent.com/serosme/scoop-setup/main"
-$TempFile = Join-Path $env:TEMP "scoop-backup.json"
+Invoke-WebRequest 'https://raw.githubusercontent.com/serosme/scoop-setup/main/scoop.txt' -OutFile $tmp -UseBasicParsing -ErrorAction Stop
 
-$Backups = @(
-    "scoop-base.json",
-    "scoop-dev.json"
-)
-
-try {
-    Write-Host "Available Scoop backups:`n"
-
-    for ($i = 0; $i -lt $Backups.Count; $i++) {
-        Write-Host "[$($i + 1)] $($Backups[$i])"
+Get-Content $tmp -Encoding UTF8 | Where-Object { $_.Trim() -and -not $_.Trim().StartsWith('#') } | ForEach-Object {
+    Write-Host "Execute '$_'? [Y/n] " -NoNewline
+    $key = [Console]::ReadKey($true)
+    if ($key.Key -eq 'N') {
+        Write-Host "n"
+        return
     }
+    Write-Host "y"
 
-    $choice = Read-Host "`nSelect a backup to import"
-
-    if (-not ($choice -as [int]) -or
-        $choice -lt 1 -or
-        $choice -gt $Backups.Count) {
-        throw "Invalid selection."
-    }
-
-    $SelectedBackup = $Backups[$choice - 1]
-    $BackupUrl = "$BaseUrl/$SelectedBackup"
-
-    Write-Host "`nDownloading Scoop backup..."
-    Invoke-WebRequest $BackupUrl -OutFile $TempFile
-
-    Write-Host "Importing Scoop backup..."
-    scoop import $TempFile
-
-    Write-Host "Cleaning up..."
-    Remove-Item $TempFile -Force
-
-    Write-Host "Scoop restore completed successfully."
-}
-catch {
-    Write-Error "Restore failed: $_"
-    if (Test-Path $TempFile) {
-        Remove-Item $TempFile -Force
-    }
-    exit 1
+    try { Invoke-Expression $_ } catch { Write-Warning "Command failed: $_" }
 }

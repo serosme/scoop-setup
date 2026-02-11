@@ -5,6 +5,7 @@ scoop bucket add versions https://github.com/ScoopInstaller/Versions
 scoop install main/7zip
 scoop install extras/cheat-engine
 scoop install main/cloc
+scoop install main/gh
 scoop install main/git
 scoop install extras/gui-for-clash
 scoop install extras/hibit-uninstaller
