@@ -1,0 +1,22 @@
+scoop bucket add main https://github.com/ScoopInstaller/Main
+scoop bucket add extras https://github.com/ScoopInstaller/Extras
+scoop bucket add versions https://github.com/ScoopInstaller/Versions
+
+scoop install main/7zip
+scoop install extras/cheat-engine
+scoop install main/cloc
+scoop install main/git
+scoop install extras/gui-for-clash
+scoop install extras/hibit-uninstaller
+scoop install extras/idea-ultimate
+scoop install main/kubectl
+scoop install extras/localsend
+scoop install main/maven
+scoop install extras/mpv
+scoop install versions/nodejs24
+scoop install extras/opencode-desktop
+scoop install main/openlist
+scoop install extras/rufus
+scoop install extras/snipaste
+scoop install main/uv
+scoop install extras/vscode
