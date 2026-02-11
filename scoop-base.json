@@ -39,18 +39,6 @@
       "Name": "obs-studio"
     },
     {
-      "Source": "main",
-      "Name": "oh-my-posh"
-    },
-    {
-      "Source": "extras",
-      "Name": "opencode-desktop"
-    },
-    {
-      "Source": "extras",
-      "Name": "quicklook"
-    },
-    {
       "Source": "extras",
       "Name": "rufus"
     },
