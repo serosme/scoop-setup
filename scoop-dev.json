@@ -19,6 +19,10 @@
       "Name": "cloc"
     },
     {
+      "Source": "main",
+      "Name": "gh"
+    },
+    {
       "Source": "extras",
       "Name": "idea-ultimate"
     },

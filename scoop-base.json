@@ -35,16 +35,20 @@
       "Name": "mpv"
     },
     {
+      "Source": "extras",
+      "Name": "obs-studio"
+    },
+    {
       "Source": "main",
       "Name": "oh-my-posh"
     },
     {
       "Source": "extras",
-      "Name": "quicklook"
+      "Name": "opencode-desktop"
     },
     {
-      "Source": "main",
-      "Name": "rclone"
+      "Source": "extras",
+      "Name": "quicklook"
     },
     {
       "Source": "extras",
