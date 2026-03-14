@@ -19,5 +19,4 @@ scoop install extras/opencode-desktop
 scoop install main/openlist
 scoop install extras/rufus
 scoop install extras/snipaste
-scoop install main/uv
 scoop install extras/vscode
